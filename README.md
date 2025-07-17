@@ -1,29 +1,25 @@
-# calculadora-vue
+🧮 Calculadora Aritmética com Vue.js
+Este projeto é uma calculadora aritmética simples desenvolvida com Vue 3, utilizando reactive para gerenciamento de estado e eventos como @keyup e @change para capturar os dados, como proposto no desafio.
 
-This template should help get you started developing with Vue 3 in Vite.
+🔧 Tecnologias Utilizadas
+Vue 3 (composition API com reactive)
 
-## Recommended IDE Setup
+Bootstrap 5 (para estilização)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+HTML5 e JavaScript
 
-## Customize configuration
+Lógica com props, emit e funções arrow function
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+🎯 Funcionalidades
+Inserção de dois números para o cálculo
 
-## Project Setup
+Seleção de uma operação aritmética: adição, subtração, multiplicação ou divisão
 
-```sh
-npm install
-```
+Resultado é exibido automaticamente assim que os valores são digitados ou a operação é selecionada
 
-### Compile and Hot-Reload for Development
+Validação de erros, como divisão por zero ou operação não selecionada
 
-```sh
-npm run dev
-```
+Layout responsivo com Bootstrap
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+📷 Demonstração
+<img width="3838" height="1958" alt="Captura de tela 2025-07-17 061620" src="https://github.com/user-attachments/assets/f1703575-3d44-4394-940f-c998fa865bd9" />
