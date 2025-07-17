@@ -40,17 +40,9 @@
 <template>
   <div class="container mt-5">
     <div class="card shadow bg-light">
-      
       <CardHeader />
-
-      <CardBody />
-
+      <CardBody :calcular-resultado="calcularResultado()" :estado="estado"/>
       <CardFooter />
-
-      
     </div>
   </div>
 </template>
-
-
-
