@@ -5,20 +5,28 @@ Este é um projeto simples de uma calculadora aritmética desenvolvido com **Vue
 ## ✨ Funcionalidades
 
 * **Entrada de Números:** Dois campos para inserir os operandos (números).
+* 
 * **Seleção de Operação:** Um menu `select` para escolher a operação aritmética (soma, subtração, divisão, multiplicação).
+* 
 * **Cálculo em Tempo Real:** O resultado é atualizado instantaneamente à medida que os números ou a operação são alterados, sem a necessidade de clicar em um botão.
+* 
 * **Validação de Erros:** Tratamento para operações inválidas, como divisão por zero ou seleção de operador.
+* 
 * **Interface Intuitiva:** Design simples e funcional para uma boa experiência do usuário.
+* 
 
 ## 🚀 Tecnologias Utilizadas
 
 ***Vue.js 3 (com Composition API e `<script setup>`):** Framework JavaScript progressivo para construção da interface do usuário.
+
 ***JavaScript:** Lógica de programação da calculadora.
+
 ***Node.js:** Ambiente de execução para o desenvolvimento e build do projeto.
+
 ***Bootstrap 5:** Framework CSS para estilização e responsividade.
+
 ***Componentização:** Utilização de componentes (`App.vue`, `CardHeader.vue`, `CardBody.vue`, `CardFooter.vue`) para modularizar e organizar o código, facilitando a manutenção e reusabilidade.
-***GitHub:** Para o deploy e hospedagem da aplicação. 
-https://github.com/ThiagoLopesSantos/calculadora_com_vue
+
 ***Vercel:** Para hospedagem e demonstração da aplicação.
 https://calculadora-com-vue-orpin.vercel.app/
 
