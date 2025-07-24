@@ -1,25 +1,28 @@
-🧮 Calculadora Aritmética com Vue.js
-Este projeto é uma calculadora aritmética simples desenvolvida com Vue 3, utilizando reactive para gerenciamento de estado e eventos como @keyup e @change para capturar os dados, como proposto no desafio.
+# 🔢 Calculadora Aritmética Reativa em Vue.js
 
-🔧 Tecnologias Utilizadas
-Vue 3 (composition API com reactive)
+Este é um projeto simples de uma calculadora aritmética desenvolvido com **Vue.js**, demonstrando conceitos fundamentais da construção de aplicações web reativas e modularizadas.
 
-Bootstrap 5 (para estilização)
+## ✨ Funcionalidades
 
-HTML5 e JavaScript
+* **Entrada de Números:** Dois campos para inserir os operandos (números).
+* **Seleção de Operação:** Um menu `select` para escolher a operação aritmética (soma, subtração, divisão, multiplicação).
+* **Cálculo em Tempo Real:** O resultado é atualizado instantaneamente à medida que os números ou a operação são alterados, sem a necessidade de clicar em um botão.
+* **Validação de Erros:** Tratamento para operações inválidas, como divisão por zero ou seleção de operador.
+* **Interface Intuitiva:** Design simples e funcional para uma boa experiência do usuário.
 
-Lógica com props, emit e funções arrow function
+## 🚀 Tecnologias Utilizadas
 
-🎯 Funcionalidades
-Inserção de dois números para o cálculo
+***Vue.js 3 (com Composition API e `<script setup>`):** Framework JavaScript progressivo para construção da interface do usuário.
+***JavaScript:** Lógica de programação da calculadora.
+***Node.js:** Ambiente de execução para o desenvolvimento e build do projeto.
+***Bootstrap 5:** Framework CSS para estilização e responsividade.
+***Componentização:** Utilização de componentes (`App.vue`, `CardHeader.vue`, `CardBody.vue`, `CardFooter.vue`) para modularizar e organizar o código, facilitando a manutenção e reusabilidade.
+***GitHub:** Para o deploy e hospedagem da aplicação. 
+https://github.com/ThiagoLopesSantos/calculadora_com_vue
+***Vercel:** Para hospedagem e demonstração da aplicação.
+https://calculadora-com-vue-orpin.vercel.app/
 
-Seleção de uma operação aritmética: adição, subtração, multiplicação ou divisão
 
-Resultado é exibido automaticamente assim que os valores são digitados ou a operação é selecionada
-
-Validação de erros, como divisão por zero ou operação não selecionada
-
-Layout responsivo com Bootstrap
 
 📷 Demonstração
 <img width="3838" height="1958" alt="Captura de tela 2025-07-17 061620" src="https://github.com/user-attachments/assets/f1703575-3d44-4394-940f-c998fa865bd9" />
